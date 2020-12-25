@@ -1,0 +1,111 @@
+.top-section {
+  background-color: #1a1915;
+  background-image: url(../img/bg-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--main-font);
+  color: var(--font-color-white);
+  padding: 2.2rem 0 13.8rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+.logo-link {
+  font-family: var(--main-font);
+  color: var(--font-color-white);
+  font-size: 2rem;
+}
+
+.entering {
+  margin-bottom: 12rem;
+}
+
+.entering-link {
+  display: inline-block;
+  font-family: var(--main-font);
+  color: var(--font-color-white);
+  font-size: 1.4rem;
+  border-radius: 2rem;
+  padding: 1rem 1.6rem;
+  transition: 0.2s;
+}
+
+.entering-link:hover {
+  box-shadow: 0 0 0 2px #ffffff;
+}
+
+.entering-link:not(:last-child) {
+  margin-right: 0.4rem;
+}
+
+.share-and-find {
+  text-align: center;
+}
+
+.share-and-find_title {
+  margin-bottom: 1.8rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.share-and-find_text {
+  margin-bottom: 1.8rem;
+  font-family: var(--semi-font);
+  font-size: 1.8rem;
+}
+
+.share-and-find_link {
+  font-family: var(--main-font);
+  color: var(--font-color-white);
+  font-size: 1.4rem;
+  border-radius: 2rem;
+  padding: 1.2rem 0;
+  background-color: #ff4e50;
+  width: 28rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 48em) {
+  .top-section {
+    padding: 3.8rem 0 23.4rem;
+  }
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    margin-bottom: 15.6rem;
+  }
+  .entering {
+    margin-bottom: 0;
+  }
+
+  .share-and-find_title {
+    margin-bottom: 4rem;
+    font-size: 5.2rem;
+    max-width: 52rem;
+  }
+
+  .share-and-find_text {
+    margin-bottom: 3.6rem;
+    font-size: 2.4rem;
+  }
+  .share-and-find_link {
+    width: 22.6rem;
+  }
+}
+
+@media screen and (min-width: 58.75em) {
+  .header {
+    margin-bottom: 14.8rem;
+    padding: 0;
+  }
+}
